@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "manikantabucket2026"
+    bucket         = "bucket-name"
     key            = "project2/terraform.tfstate"
     region         = "us-east-1"
     # optional:
