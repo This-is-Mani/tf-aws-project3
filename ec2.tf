@@ -8,6 +8,8 @@ resource "aws_instance" "my_ec2" {
 
   associate_public_ip_address = true
 
+  key_name = var.key_name
+
   tags = {
     Name = "GitHubActionsEC2"
   }
