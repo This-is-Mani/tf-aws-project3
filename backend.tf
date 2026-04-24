@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "bucket-name"
+    bucket         = "mydevbucket2026"
     key            = "project2/terraform.tfstate"
     region         = "us-east-1"
     # optional:
