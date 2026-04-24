@@ -17,3 +17,8 @@ variable "security_group_id" {
   description = "Security Group ID for EC2"
   type        = string
 }
+
+variable "key_name" {
+  description = "EC2 Key Pair Name"
+  type        = string
+}
